@@ -1,0 +1,331 @@
+{
+  "basics": {
+    "name": "Jim Welch",
+    "label": "Engineering and Pre-Sales Leader - Mobility",
+    "picture": "https://media-exp1.licdn.com/dms/image/C4E03AQFJdRo5PzWRMA/profile-displayphoto-shrink_400_400/0/1557428179563?e=1616630400&v=beta&t=cK_FKk6ChWYaSqXlmGEMbB38dEm5v9wlx_x4Dy2Pj0k",
+    "email": "j.gauntlett.welch@gmail.com",
+    "phone": "+1-614-596-9141",
+    "website": "http://www.linkedin.com/in/jimwelch/",
+    "summary": "At DENSO, Bestmile, Ridecell, TomTom, and deCarta/Uber, I've recruited, mentored and led solutions engineering teams to deliver cloud native solutions that drive sales results. Primary focus areas include new mobility services (MaaS), autonomous mobility on demand, location based services (LBS) and fleet management/logistics. <li>2019 - present: DENSO - New Mobility Lead Solutions Architect<li>2018 - 2019: Bestmile - Senior Director Solutions Engineering<li>2016 - 2018: Ridecell - Senior Director Solutions Engineering<li>2015 - 2016:  TomTom | Business Development Manager<li>2007 - 2015:  deCarta (acquired by Uber) | Senior Director Professional Services/Sales Engineering<li>1993 - 2007:  MobileSoft  | CTO founder  (acquired by Zenitel) ",
+    "location": {
+      "countryCode": "US",
+      "address": "Dublin, Ohio"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jimwelch",
+        "url": "https://www.linkedin.com/in/jimwelch/"
+      },
+      {
+        "network": "Twitter",
+        "username": "JGauntlettWelch",
+        "url": "https://twitter.com/JGauntlettWelch"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "DENSO",
+      "where": "Southfield, MI",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQH-QTchnmXomQ/company-logo_200_200/0/1519886849704?e=1619654400&v=beta&t=bsRNqKsVFeHXampBbIqCW0eS609exT5c5FteuML3MG0",
+      "endDate": "2020-01-20",
+      "highlights": ["Responsibility for launch of new mobility service initiatives in coordination with OEM partners and platform providers.",  "Member of leadership team tasked with defining all operational support models, customer engagement processes, and associated monitoring metrics for SaaS mobility services platform."],
+      "position": "Head of Mobility Platform Services Architecture",
+      "startDate": "2019-04-30",
+      "summary": "Member of leadership team tasked with defining all operational support models, customer engagement processes, and associated monitoring metrics for SaaS mobility services platform.",
+      "website": "https://www.linkedin.com/company/denso/",
+      "picture": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fdenso-2-logo-svg-vector.svg&imgrefurl=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fdenso-logo%2F&tbnid=8ek6WUzyGQyfTM&vet=12ahUKEwiUjNmd2LLuAhUT-KwKHfcFBY4QMygAegUIARCgAQ..i&docid=JaZK3Rpy8DyENM&w=2500&h=2500&q=denso%20logo&hl=en&ved=2ahUKEwiUjNmd2LLuAhUT-KwKHfcFBY4QMygAegUIARCgAQ"
+    },
+    {
+      "company": "Bestmile",
+      "endDate": "2019-04-30",
+      "where": "San Francisco, CA",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQG2w-OvRUtlog/company-logo_200_200/0/1589898559505?e=1619654400&v=beta&t=mp9BG8aY9O5TvqaMUSobxzjYJPpvUqVFaLx1xUgzxqs",
+      "highlights": [],
+      "position": "Global Director Solutions Engineering",
+      "startDate": "2018-02-28",
+      "summary": "Lead all pre-sales and launch activities focused on autonomous shuttle programs for public transit agencies/operators and private shared mobility services.",
+      "website": "https://www.linkedin.com/company/bestmile/"
+    },
+    {
+      "company": "Ridecell",
+      "endDate": "2018-12-31",
+      "where": "San Francisco",
+      "image": "https://media-exp1.licdn.com/dms/image/C560BAQEiGXnYxrzkVA/company-logo_200_200/0/1597161903677?e=1619654400&v=beta&t=9B_XpD8EmuA8IryLphs-OzVjMlD0wBPp0LLkIQri9xU",
+      "highlights": [],
+      "position": "Senior Director Solutions Engineering",
+      "startDate": "2016-12-31",
+      "summary": "Grew and led a distributed pre-sales engineering team responsible for all technical aspects of pipeline sales opportunities. Acted as player-coach working with the complete end-to-end mobility solution provided by Ridecell - full stack (Python-django) and mobile environments (Swift-iOS/Android).\n\n- Defined, developed, and delivered the initial version of Ridecell's autonomous mobility management platform. Result: close of the contract with the highest profile company in the autonomous space today",
+      "website": "https://www.linkedin.com/company/ridecell/"
+    },
+    {
+      "company": "TomTom",
+      "where": "San Jose, CA",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQHVN9JI46r7sg/company-logo_200_200/0/1581417586750?e=1619654400&v=beta&t=BBAzH1-dvyMliSBcQN_euz8el79abnceGcz9bDYvC2I",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "position": "Business Development Manager - Customer Success",
+      "startDate": "2015-12-31",
+      "summary": "Assigned to Uber Technologies account for identifying, qualifying, and leading customer account activities. Coordinated business and transition activities in conjunction with management  and project teams.",
+      "website": "https://www.linkedin.com/company/tomtom/"
+    },
+    {
+      "company": "deCarta - an Uber Technology Company",
+      "endDate": "2015-12-31",
+      "where": "San Francisco, CA",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/0/1538169321193?e=1619654400&v=beta&t=58ATo1ZahkmJPFMPTlO_BSPoJE4g9s9HRemOtnPtFe0",
+      "highlights": ["Coordinated the development and delivery of four private label personal navigation and connected navigation products to a leading consumer electronics retailer in the US.  <b>Result:</b> Genesis of a new category of connected personal navigation device for a major US consumer electronics retailer.", "Spearheaded the pre-sales, solution architecture, and delivery of a mobile, online navigation application for the leading personal navigation provider in Europe. <b>Result</b>: Opened new partnerships and sales channels for the company."],
+      "position": "Senior Director Professional Services",
+      "startDate": "2007-12-31",
+      "summary": "Manage a combined team of internal project managers, offshore development resources, and third party contractors in specifying, designing, and delivering LBS solutions that leverage deCarta's products and services.",
+      "website": "https://www.linkedin.com/company/decarta/"
+    },
+    {
+      "company": "MobileSoft",
+      "endDate": "2007-12-31",
+      "where": "Seattle, WA",
+      "image": "https://media-exp1.licdn.com/dms/image/C510BAQGke_MuRVnexA/company-logo_200_200/0/1519912745943?e=1619654400&v=beta&t=kdT5FSTgC8XaNY8whWuOiPp4SVIRSTQOOLFZJCgv5OQ",
+      "highlights": ["Develop sales and distribution channels for wireless solutions through international divisions of Motorola, Inc. in Europe and the Pacific Rim. <b>Result</b>:launched products in seven international markets with more than 75,000 mobile subscribers.","Successfully launched a suite of mobile messaging products in partnership with a major European carrier that leveraged location based services(LBS) and mobile payment services(m-payment).", "Coordinated the successful partnership among technology providers in the development of a mobility product for a major European transit agency.<b>Result</b>:Solution exceeded the requirements of all of the stakeholders."],
+      "position": "CTO - Founder",
+      "startDate": "1993-12-31",
+      "summary": "Dublin, OH/Seattle, WA\nCTO and founder of company providing fleet management and mobility applications to the transportation industry. Supervise the specification,development,testing,delivery and service of on-demand dispatch solutions.",
+      "website": "https://www.linkedin.com/company/mobilesoft_2/"
+    },
+    {
+      "company": "Motorola Solutions",
+      "endDate": "1994-12-31",
+      "where": "Seattle, WA",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/0/1519861235024?e=1619654400&v=beta&t=DM69SWcF5WNDgiyS0LIvP904Di59dP3oI3N2Jvvg_lg",
+      "highlights": [],
+      "position": "Senior Software Engineer",
+      "startDate": "1991-12-31",
+      "website": "https://www.linkedin.com/company/motorolasolutions/"
+    },
+    {
+      "company": "UNITED STATES DEPARTMENT OF THE NAVY",
+      "endDate": "1991-12-31",
+      "where": "San Diego, CA",
+      "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQHuWXvL3hqa_A/company-logo_100_100/0/1591986407138?e=1619654400&v=beta&t=2ESko8tQ2MtwtnDK3DUWDOi_RlmUTFJofP67b6QQm6k",
+      "highlights": [],
+      "position": "Surface Warfare Officer/Nuclear Engineer",
+      "startDate": "1986-12-31",
+      "website": "https://www.linkedin.com/company/united-states-department-of-the-navy/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "United States Naval Academy",
+      "studyType": "BS Computer Science",
+      "where": "Annapolis, MD",
+      "startDate": "1982-07-01",
+      "endDate": "1986-05-21",
+      "gpa": "3.54",
+      "courses": []
+    },
+    {
+      "institution": "The Ohio State University Fisher College of Business",
+      "studyType": "Masters Business Administration",
+      "where": "Columbus, OH",
+      "startDate": "2000-09-01",
+      "endDate": "2002-06-01",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Mobile Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Start-ups",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "iOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Entrepreneurship",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Telematics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Success",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Navigation Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enterprise Software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solution Selling",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Military Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SaaS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Location Based Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Project Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-functional Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Professional Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Geospatial",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Technology",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Devices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GPS Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    }
+  ],
+
+  "interests": [],
+  "references": [
+    {
+      "name": "Michael Cottle",
+      "company": "Mapbox",
+      "title": "Vice President Sales",
+      "detailsBool": true,
+      "reference": "Jim is an incredibly dedicated hard worker, outstanding technical professional and consummate professional. Jim managed our team of pre and post sales engineers and was responsible for the successful management and delivery of some of the most complex and challenging projects that deCarta was involved with. Jim works exceedingly well with customers and manages expectations and communication very effectively. I would re-hire Jim in an instant. "
+    },
+    {
+      "name": "Tom Sexton",
+      "company": "Here Technologies",
+      "title": "Senior Partner Manager",
+      "reference": "Jim is smart and creative and was great at engaging with customers on development of location-aware software solutions and applications during the time we worked together at deCarta. Jim is very responsive and truly professional in all his interactions with colleagues and customers. "
+    },
+    {
+      "name": "Warren Perry",
+      "company": "MooveAI",
+      "title": "Head of Business Development",
+      "reference": ""
+    },
+    {
+      "name": "Bobby Parikh",
+      "company": "Uber",
+      "title": "Director of Engineering",
+      "reference": "I worked with Jim at deCarta for about four years beginning with interviewing him and giving an enthusiastic endorsement for hiring him. He's very good so it's no wonder he was promoted to a manager's position in a very short time as soon as his predecessor left.\r\n\r\nJim is very good at everything I have seen him do. He is excellent with customers. He is a tireless advocate for them inside the company and a tactful representative of the company in front of them. His background from running his own company helps him handle difficult customer situations really well. His professional image was untarnished both inside and outside in spite of a failed product launch for a really important customer that he personally managed. \r\n\r\nJim is also a great technical leader. He's hands-on when needed and otherwise comfortable in delegating. I have seen him come up with clever solutions for complex problems many times. He's also very good at building and maintaining relationships.\r\n\r\nI'd recommend Admiral Welch any time and would love to work with him again."
+    }
+
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "jwelchresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./node_modules/resume-cli/build/main.js export resume.pdf -f pdf -t kendall-gren"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbsoft/jwelchResume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbsoft/jwelchResume/issues"
+  },
+  "homepage": "https://github.com/mbsoft/jwelchResume#readme",
+  "dependencies": {
+    "jsonresume-theme-kendall-gren": "^0.1.23"
+  }
+}
