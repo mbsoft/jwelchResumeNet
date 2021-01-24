@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ./node_modules/resume-cli/build/main.js export resume.pdf -f pdf -t kendall-gren"
+    "run2": "resume serve  -t kendall",
+    "run": "resume export resume.pdf -t kendall-gren;cp resume.html docs"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/mbsoft/jwelchResume#readme",
   "dependencies": {
-    "jsonresume-theme-kendall-gren": "^0.1.23"
+    "jsonresume-theme-kendall-gren": "file:../kcv-theme-kendall-gren"
   }
 }
