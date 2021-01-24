@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run2": "resume serve  -t kendall",
-    "run": "resume export resume.pdf -t kendall-gren;cp resume.html docs"
+    "run": "resume export resume.pdf -t kendall-gren;cp resume.html docs;cp resume.html ./index.html"
   },
   "repository": {
     "type": "git",
