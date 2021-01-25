@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume of Jim Welch</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
     <style type="text/css">
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 @charset "utf-8";
@@ -17,72 +19,40 @@
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
-body {
+body{
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
-  font-size: 12px;
   color: #363636;
   background: #334960;
 }
-
 blockquote {
   font-size: 1em;
 }
 
-@page {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-@page:first {
-  margin-top: 0;
-}
-
-.main-body {
-}
-
-.col-sm-5 {
-  width: 40.0%;
-}
-
-.col-sm-7 {
-  width: 60.0%;
-}
-
-.col-sm-offset-1 {
-  margin-left: 8.0%;
-}
-
-.col-sm-12 {
-  width: 92%;
-}
-
 .container{
   margin-top: 80px;
+  margin-bottom: 15px;
   background: #fff;
 }
 
-#photo-header {
+#photo-header{
   margin-top: -75px;
 }
-
-#photo {
+#photo{
   width: 160px;
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
   padding: 5px;
-  background: #fff;
+  background: #334960;
   display: inline-block;
 }
-
-#photo img {
+#photo img{
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
-
-#text-header h1 {
+#text-header h1{
   margin: 0;
   padding: 0;
   font-size: 1.5em;
@@ -90,23 +60,19 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: -1px;
 }
-
-#text-header h1::first-line {
+#text-header h1::first-line{
   font-size: 1.5em;
   font-weight: 800;
   line-height: 1.5em;
 }
-
-#text-header h1 span {
+#text-header h1 span{
   color: #334960;
   opacity: 0.7;
 }
-
-#text-header h1 sup {
+#text-header h1 sup{
   opacity: 0.5;
 }
-
-#text-header:after {
+#text-header:after{
   width: 100%;
   height: 3px;
   border-bottom: 1px solid #ddd;
@@ -115,11 +81,11 @@ blockquote {
   display: block;
 }
 
-.box {
+.box{
   padding-bottom: 10px;
   margin-bottom: 25px;
 }
-.box h2 {
+.box h2{
   color: #227c74;
   font-size: 1.5em;
   font-weight: 700;
@@ -127,14 +93,13 @@ blockquote {
 }
 
 #awards,
-#education {
+#education{
   margin-top: 20px;
   margin-bottom: 0;
   position: relative;
   padding: 1em 0;
   list-style: none;
 }
-
 #awards:before,
 #education:before {
   width: 5px;
@@ -153,26 +118,23 @@ blockquote {
   background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
 }
-
 #awards li,
-#education li {
+#education li{
   width: 100%;
   z-index: 2;
   position: relative;
   float: left;
 }
-
 #awards .year,
-#education .year {
+#education .year{
   width: 14%;
   background: #fff;
   padding: 10px;
   font-weight: 700;
   display: inline-block;
 }
-
 #awards .description,
-#education .description {
+#education .description{
   width: 83%;
   display: inline-block;
   background: #eee;
@@ -182,7 +144,6 @@ blockquote {
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-
 #awards .description:after,
 #education .description:after {
   content: '';
@@ -197,25 +158,22 @@ blockquote {
   border-width: 8px;
   pointer-events: none;
 }
-
 #awards .description h3,
-#education .description h3 {
+#education .description h3{
   font-size: 1.2em;
   margin: 0;
   padding: 0;
   font-weight: 700;
 }
-
 #awards .description p,
-#education .description p {
+#education .description p{
   margin-top: 5px;
   padding: 0;
 }
 
-.job {
+.job{
   margin-bottom: 15px;
 }
-
 .job .details {
   margin-left: 3%;
   width: 95%;
@@ -225,89 +183,74 @@ blockquote {
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-
-.job .where {
+.job .where{
   font-size: 1.2em;
   font-weight: bold;
 }
-
-.job .year {
+.job .year{
   opacity: 0.7;
 }
-
-.job .profession {
+.job .profession{
   font-size: 1.2em;
   font-weight: bold;
 }
-
-.job .description {
+.job .description{
   line-height: 1.5em;
 }
-
-.job .highlights {
+.job .highlights{
   padding: 5px 0;
   font-weight: bold;
 }
-
 .job .job-details {
   padding-left: 5%;
   width: 100%;
 }
-
 .publication {
   margin-bottom: 0;
 }
-
-.publication .name {
+.publication .name{
   font-size: 1em;
   font-weight: bold;
 }
-
-.publication .year {
+.publication .year{
     opacity: 0.7;
 }
-
-.publication p {
+.publication p{
   margin: 0;
   padding-top: 10px;
 }
 
-.contact-item {
+.contact-item{
   width: 100%;
   float: left;
 }
-
-.contact-item .icon {
+.contact-item .icon{
   padding: 10px;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   color: #32475c;
   background: #eee;
 }
-
-.contact-item .title {
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
   width: 80%;
   width: calc(100% - 55px);
   font-weight: 700;
   opacity: 0.9;
 }
-
-.contact-item .title.only {
+.contact-item .title.only{
   margin-top: 10px;
 }
-
-.contact-item .description {
+.contact-item .description{
   width: 80%;
   width: calc(100% - 55px);
   color: #334960;
 }
 
-.list-group-item {
-  break-inside: avoid-page;
-}
-
 .item-interests,
-.item-skills {
+.item-skills{
   height: 30px;
   color: #334960;
   padding: 5px 10px;
@@ -318,9 +261,8 @@ blockquote {
   font-size: 1.1em;
   font-weight: 600;
 }
-
 .interest,
-.skill {
+.skill{
   color: #fff;
   display: inline-block;
   margin-right: 5px;
@@ -330,7 +272,6 @@ blockquote {
   position: relative;
   font-size: .85em;
 }
-
 .skill-level {
   background-color: #227c74;
   border-radius: 4px;
@@ -341,7 +282,7 @@ blockquote {
   margin: 1px 10px;
 }
 
-#language-skills .skill {
+#language-skills .skill{
   margin: 10px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
@@ -369,43 +310,21 @@ a[href]:after {
 blockquote,
 #education,
 #awards,
-.box {
+.contact-item,
+.publication,
+.skills,
+.interests {
   page-break-inside: avoid;
 }
 
 .col-sm-5{
+  width: 40%;
   padding: 0 15px;
 }
 
 .col-sm-7{
+  width: 60%;
   padding: 0 15px;
-}
-
-.box h2{
-	color: #227c74 !important;
-}
-.box h2 .fa:before {
-	color: #227c74 !important;
-}
-.contact-item .icon {
-  background: #eee !important;
-}
-.contact-item .icon .fa:before {
-  color: #32475c !important;
-}
-.job .details {
-    background: #eee !important;
-}
-#awards .description, #education .description {
-    background: #eee !important;
-}
-.skill-level {
-    background-color: #227c74 !important;
-    color: #fff !important;
-}
-.interest, .skill {
-    color: #fff !important;
-    background: #32475c !important;
 }
 
 .skills .col-sm-offset-1,
@@ -472,7 +391,7 @@ blockquote,
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4E03AQFJdRo5PzWRMA&#x2F;profile-displayphoto-shrink_400_400&#x2F;0&#x2F;1557428179563?e&#x3D;1616630400&amp;v&#x3D;beta&amp;t&#x3D;cK_FKk6ChWYaSqXlmGEMbB38dEm5v9wlx_x4Dy2Pj0k" alt="avatar">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;3531b1255b5416ce823f5b4291c73a47?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
             </div>
             <div id="text-header" >
               <h1>Jim Welch<br><span>Engineering and Pre-Sales Solutions Leader</span></h1>
@@ -484,19 +403,17 @@ blockquote,
         <div class="col-xs-12 col-sm-7">
           <!-- ABOUT ME -->
           <div class="box">
-            <h2><i class="fa fa-user ico"></i> About</h2>
-            <span>At DENSO, Bestmile, Ridecell, TomTom, and deCarta/Uber, I've recruited, mentored and led solutions engineering teams to deliver cloud native solutions that drive sales results. Primary focus areas include new mobility services (MaaS), autonomous mobility on demand, location based services (LBS) and fleet management/logistics. <span><li>2019 - present: DENSO - New Mobility Lead Solutions Architect<li>2018 - 2019: Bestmile - Senior Director Solutions Engineering<li>2016 - 2018: Ridecell - Senior Director Solutions Engineering<li>2015 - 2016:  TomTom | Business Development Manager<li>2007 - 2015:  deCarta (acquired by Uber) | Senior Director Sales Engineering<li>1993 - 2007:  MobileSoft  | CTO founder  (acquired by Zenitel)</span></span>
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>At DENSO, Bestmile, Ridecell, TomTom, and deCarta/Uber, I've recruited, mentored and led solutions engineering teams to deliver cloud native solutions that drive sales results. Primary focus areas include new mobility services (MaaS), autonomous mobility on demand, location based services (LBS) and fleet management/logistics. <span><li>2019 - present: DENSO - New Mobility Lead Solutions Architect<li>2018 - 2019: Bestmile - Senior Director Solutions Engineering<li>2016 - 2018: Ridecell - Senior Director Solutions Engineering<li>2015 - 2016:  TomTom | Business Development Manager<li>2007 - 2015:  deCarta (acquired by Uber) | Senior Director Sales Engineering<li>1993 - 2007:  MobileSoft  | CTO founder  (acquired by Zenitel)</span></p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4E0BAQH-QTchnmXomQ&#x2F;company-logo_200_200&#x2F;0&#x2F;1519886849704?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;bsRNqKsVFeHXampBbIqCW0eS609exT5c5FteuML3MG0" width='32' height='32'/>&nbsp;DENSO&nbsp;</div>
-                    <div class="where">Southfield, MI</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;denso&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;denso&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">April 2019 – Present</div>
                   </div>
@@ -518,10 +435,8 @@ blockquote,
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4E0BAQG2w-OvRUtlog&#x2F;company-logo_200_200&#x2F;0&#x2F;1589898559505?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;mp9BG8aY9O5TvqaMUSobxzjYJPpvUqVFaLx1xUgzxqs" width='32' height='32'/>&nbsp;Bestmile&nbsp;</div>
-                    <div class="where">San Francisco, CA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;bestmile&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;bestmile&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">February 2018 – April 2019</div>
                   </div>
@@ -542,10 +457,8 @@ blockquote,
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C560BAQEiGXnYxrzkVA&#x2F;company-logo_200_200&#x2F;0&#x2F;1597161903677?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;9B_XpD8EmuA8IryLphs-OzVjMlD0wBPp0LLkIQri9xU" width='32' height='32'/>&nbsp;Ridecell&nbsp;</div>
-                    <div class="where">San Francisco</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;ridecell&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;ridecell&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">November 2015 – February 2018</div>
                   </div>
@@ -566,10 +479,8 @@ blockquote,
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4D0BAQHVN9JI46r7sg&#x2F;company-logo_200_200&#x2F;0&#x2F;1581417586750?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;BBAzH1-dvyMliSBcQN_euz8el79abnceGcz9bDYvC2I" width='32' height='32'/>&nbsp;TomTom&nbsp;</div>
-                    <div class="where">San Jose, CA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;tomtom&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;tomtom&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">June 2015 – November 2015</div>
                   </div>
@@ -590,10 +501,8 @@ blockquote,
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4D0BAQHuawQdJU_qYQ&#x2F;company-logo_200_200&#x2F;0&#x2F;1519856271591?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;Q7L5oh1NUDXkuMMyullLBVxGTg2JFeRa8VVJru7pBAQ" width='32' height='32'/>&nbsp;deCarta - an Uber Technology Company&nbsp;<img src=https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4D0BAQFiYnR1Mbtxdg&#x2F;company-logo_200_200&#x2F;0&#x2F;1538169321193?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;58ATo1ZahkmJPFMPTlO_BSPoJE4g9s9HRemOtnPtFe0 width='32' height='32'/></div>
-                    <div class="where">San Francisco, CA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;decarta&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;decarta&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">October 2007 – June 2015</div>
                   </div>
@@ -615,10 +524,8 @@ blockquote,
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C510BAQGke_MuRVnexA&#x2F;company-logo_200_200&#x2F;0&#x2F;1519912745943?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;kdT5FSTgC8XaNY8whWuOiPp4SVIRSTQOOLFZJCgv5OQ" width='32' height='32'/>&nbsp;MobileSoft&nbsp;</div>
-                    <div class="where">Seattle, WA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;mobilesoft_2&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;mobilesoft_2&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">June 1993 – September 2007</div>
                   </div>
@@ -642,10 +549,8 @@ CTO and founder of company providing fleet management and mobility applications 
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4D0BAQE4yt5Gz-3KGQ&#x2F;company-logo_100_100&#x2F;0&#x2F;1519861235024?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;DM69SWcF5WNDgiyS0LIvP904Di59dP3oI3N2Jvvg_lg" width='32' height='32'/>&nbsp;Motorola, Inc. - Wireless Data Group&nbsp;</div>
-                    <div class="where">Seattle, WA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;motorolasolutions&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;motorolasolutions&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">October 1991 – November 1994</div>
                   </div>
@@ -666,10 +571,8 @@ CTO and founder of company providing fleet management and mobility applications 
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where"><img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C4D0BAQHuWXvL3hqa_A&#x2F;company-logo_100_100&#x2F;0&#x2F;1591986407138?e&#x3D;1619654400&amp;v&#x3D;beta&amp;t&#x3D;2ESko8tQ2MtwtnDK3DUWDOi_RlmUTFJofP67b6QQm6k" width='32' height='32'/>&nbsp;United States Navy&nbsp;</div>
-                    <div class="where">San Diego, CA</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;united-states-department-of-the-navy&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;united-states-department-of-the-navy&#x2F;</a>
+                    <div class="where">
+                      
                     </div>
                     <div class="year">May 1986 – May 1991</div>
                   </div>
@@ -688,50 +591,43 @@ CTO and founder of company providing fleet management and mobility applications 
         <div class="col-xs-12 col-sm-5">
           <!-- CONTACT -->
           <div class="box clearfix">
-            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
               <div class="title pull-right">Dublin, Ohio</div>
               <div class="title  pull-right"> US</div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
               <div class="title only pull-right">+1-614-596-9141</div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
               <div class="title only pull-right"><a href="mailto:j.gauntlett.welch@gmail.com" target="_blank">j.gauntlett.welch@gmail.com</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jimwelch&#x2F;" target="_blank">http:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jimwelch&#x2F;</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
               <div class="title pull-right">LinkedIn</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jimwelch&#x2F;" target="_blank">jimwelch</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
               <div class="title pull-right">Twitter</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;JGauntlettWelch" target="_blank">JGauntlettWelch</a></div>
             </div>
           </div>
           <!-- EDUCATION -->
           <div class="box">
-            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <h2><i class="fas fa-university ico"></i> Education</h2>
             <ul id="education" class="clearfix">
               <li>
                 <div class="year pull-left">1982 1986</div>
                 <div class="description pull-right">
                   <h3>United States Naval Academy</h3>
-                  <p><i class= "fa fa-graduation-cap ico"></i> BS Computer Science</p>
-                  <p><i class= "fa fa-map-marker fa-fw"></i> Annapolis, MD</p>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> BS Computer Science</p>
                   <p></p>
-                  <p>
-                    GPA: 3.54
-                  </p>
-                    <div>Highlights</div>
+                    <div>Courses</div>
                     <ul class="list-group">
                       <li class="list-group-item">#1 graduate in major</li>
                       <li class="list-group-item">Top 5% of all graduates</li>
@@ -742,13 +638,10 @@ CTO and founder of company providing fleet management and mobility applications 
                 <div class="year pull-left">2000 2002</div>
                 <div class="description pull-right">
                   <h3>The Ohio State University Fisher College of Business</h3>
-                  <p><i class= "fa fa-graduation-cap ico"></i> Masters Business Administration</p>
-                  <p><i class= "fa fa-map-marker fa-fw"></i> Columbus, OH</p>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Masters Business Administration</p>
                   <p></p>
-                  <p>
-                    GPA: 4.0
-                  </p>
-                    <div>Highlights</div>
+                    <div>Courses</div>
                     <ul class="list-group">
                       <li class="list-group-item">Entrepreneurship emphasis</li>
                     </ul>
@@ -758,10 +651,18 @@ CTO and founder of company providing fleet management and mobility applications 
           </div>
           <!-- SKILLS -->
           <div class="box">
-            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
             <div class="skills clearfix">
               <div class="item-skills">
-                  Mobile Applications
+                  Amazon Web Services (AWS)
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Cloud Native Architecture
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
@@ -777,15 +678,7 @@ CTO and founder of company providing fleet management and mobility applications 
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  Amazon Web Services (AWS)
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Cloud Computing
+                  Mobile Applications
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
@@ -810,14 +703,6 @@ CTO and founder of company providing fleet management and mobility applications 
             <div class="skills clearfix">
               <div class="item-skills">
                   Telematics
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Product Development
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
@@ -882,14 +767,6 @@ CTO and founder of company providing fleet management and mobility applications 
             <div class="skills clearfix">
               <div class="item-skills">
                   SaaS
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Android
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
@@ -992,52 +869,48 @@ CTO and founder of company providing fleet management and mobility applications 
               </div>
             </div>
           </div>
-
-          <!-- REFERENCES -->
+          <!-- PUBLICATIONS -->
           <div class="box">
-            <h2><i class= "fa fa-check-square ico"></i> References</h2>
-            <div id= "reference-group">
-            <div class="box">
-
+            <h2><i class="fas fa-book ico"></i> Publications</h2>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">Texas Mobility Summit - 2019</div>
+              </div>
+              <div class="panel-body">
+                <div class="year">01 February  2019</div>
+                <p>Plenary sessions and presentation on Bestmile <i>Service Design</i></p>
+              </div>
+            </div>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">Smart Columbus - Mobility Hackathon - 2018</div>
+              </div>
+              <div class="panel-body">
+                <div class="year">01 February  2018</div>
+                <p>Sponsor, speaking and mentoring</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2><i class= "fas fa-check-square ico"></i> References</h2>
             <blockquote>
               <div><i>'...incredibly dedicated hard worker, outstanding technical professional and consummate professional.'<br> '...works exceedingly well with customers.'<br>'...would re-hire Jim in an instant.'</i></div>
               <footer>
-                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;mikecottle" target= "https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;mikecottle">Michael Cottle</a><br>
-                <span class= "company">Apple/Mapbox/Telenav </span>
-                <span class= "title">Vice President Sales</span>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;mikecottle" target= "_blank">Michael Cottle</a>
               </footer>
-            </blockquote>
-
-          </div>
-            </div>
-            <div id= "reference-group">
-            <div class="box">
-
+            </blockquote><br>
             <blockquote>
               <div><i>'...smart and creative great at engaging with customers.'<br> '...truly professional in all his interactions with colleagues and customers.</i></div>
               <footer>
-                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tsextonsalesandbdleader" target= "https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tsextonsalesandbdleader">Tom Sexton</a><br>
-                <span class= "company">INRIX/Here Technologies </span>
-                <span class= "title">VP Business Development/Senior Partner Manager</span>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tsextonsalesandbdleader" target= "_blank">Tom Sexton</a>
               </footer>
-            </blockquote>
-
-          </div>
-            </div>
-            <div id= "reference-group">
-            <div class="box">
-
+            </blockquote><br>
             <blockquote>
               <div><i>'...very good at everything I have seen him do.'<br> '...a tireless advocate for customers inside the company and a tactful representative of the company in front of them.'<br>'....a great technical leader.'<br>'...hands-on when needed and otherwise comfortable in delegating.'<br>'...would love to work with him again.'</i></div>
               <footer>
-                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;bobbyparikh" target= "https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;bobbyparikh">Bobby Parikh</a><br>
-                <span class= "company">Uber </span>
-                <span class= "title">Director of Engineering</span>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;bobbyparikh" target= "_blank">Bobby Parikh</a>
               </footer>
-            </blockquote>
-
-          </div>
-            </div>
+            </blockquote><br>
           </div>
         </div>
       </div>
